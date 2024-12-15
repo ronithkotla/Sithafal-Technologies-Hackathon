@@ -11,7 +11,7 @@ from langchain.vectorstores import FAISS
 
 
 
-st.title("Task-2")
+st.title("Task-2: Chat with Websites using LLM")
 st.sidebar.title("Web Scraping")
 urls_input = st.sidebar.text_area("Enter URLs (one per line)", height=150)
 
